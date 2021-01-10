@@ -1,0 +1,44 @@
+# datacollectionintervall defines the interval in seconds, in which the average values are calculated
+# default 60 seconds
+datacollectioninterval: 15
+
+# datafile defines the file in which the measured values are saved
+# default /opt/womat/data/powerusage.yaml
+datafile: C:\temp\powerusage.yaml
+
+# backupintervall defines the interval, in which measurements are saved to datafile
+# default 60 seconds
+backupinterval: 300
+
+# debug activates the debug level and the output device/file
+debug:
+  # log file e.g. /tmp/emu.log; stderr; stdout
+  # default: stderr
+  file: stderr
+  # flag: (default: standard)
+  #       standard (default) >> Warning | Info | Error | Fatal
+  #       trace              >> Warning | Info | Error | Fatal | Debug | Trace
+  #       debug              >> Warning | Info | Error | Fatal | Debug
+  flag: stamdard
+
+# webserver configuration
+webserver:
+  # port defines the port number (default: 4000)
+  port: 4010
+  # enable/disable webservices (default: disabled)
+  webservices:
+    version: true
+    currentdata: true
+
+
+# meterurl defines url to get meter data
+#  {
+#    "Time": "2021-01-03T16:59:16.84507667+01:00",
+#    "RunTime": 0.200006209,
+#    "Measurand": {
+#      "e": 7759361,
+#      "p": 2691.75
+#    }
+#  }
+invertermeterurl: http://raspberrypi:4010/inverter
+powermeterurl: http://raspberrypi:4010/primarymeter
