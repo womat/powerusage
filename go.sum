@@ -1,7 +1,0 @@
-github.com/womat/debug v0.0.3 h1:hUo0HSNMABMMA2gC76eIOvqCBskvlGfaj7XGefyp1lc=
-github.com/womat/debug v0.0.3/go.mod h1:ZlJgpzYBq01tKUYOlmXVc4R1Jd2YK+H7J/O8k1tFn2c=
-github.com/womat/tools v0.0.2 h1:9YxcIsfssImNjqJ86+bBCOwiBqMBjtewgtyxKzNN7A0=
-github.com/womat/tools v0.0.2/go.mod h1:5JuQHQzagb1WdNUeVT4f0bsd/FglbMN7ffzFI+z1YiY=
-gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
-gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
-gopkg.in/yaml.v2 v2.4.0/go.mod h1:RDklbk79AGWmwhnvt/jBztapEOGDOx6ZbXqjP6csGnQ=
